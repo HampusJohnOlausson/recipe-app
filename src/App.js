@@ -36,7 +36,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>What are you up for today?</h1>
+      <h1 className="title">What are you up for today?</h1>
     <form onSubmit={getSearch} className="searchForm" >
       <input className="searchInput" placeholder="Search recipe..." type="text" value={search} onChange={updateSearch} />
       <button className="searchBtn" type="submit" >Search</button>

@@ -1,7 +1,8 @@
 .App {
   min-height: 100vh;
   background-color: #fd0054;
-  color: #fff591;
+  overflow: hidden;
+  
 }
 .searchForm {
   display: flex;
@@ -27,8 +28,10 @@
   outline: none;
 
 }
-h1{
+.title{
   text-align: center;
+  color: #fff;
+  text-shadow: 0px 5px 5px rgb(71, 71, 71);
 }
 .infoContainer{
   display: flex;
